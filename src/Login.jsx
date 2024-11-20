@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css'; // Add styling for the component
 import loginIcon from './images/icon30.png'; // Ensure the image is in the correct path
+import ForgotPassword from './ForgotPassword';
 const Login = () => {
   const [formData, setFormData] = useState({ username: '', password: '' });
   const [message, setMessage] = useState('');
@@ -67,7 +68,7 @@ const Login = () => {
         <a href='/register'>Don't have an account? Register here</a>
       </p>
       <p>
-        <a href='/forgot-password'>Forgot Password?</a>
+        <a href='/ForgotPassword'>Forgot Password?</a>
       </p>
     </div>
   );
