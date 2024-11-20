@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #2c5f2d, #a78a5f);
+  font-family: Arial, sans-serif;
+}
+
+/* Centered Form Container */
+.register-container {
+  width: 380px;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title Styles */
+.register-container h2 {
+  font-size: 2rem;
+  color: #2c5f2d;
+  margin-bottom: 1.5rem;
+}
+
+/* Form Field Styles */
+.register-container input[type='text'],
+.register-container input[type='email'],
+.register-container input[type='password'],
+.register-container select {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.6rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+.register-container button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #b5651d;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+  background-color: #8a4d15;
+}
+
+/* Responsive Link Style */
+.register-container a {
+  color: #2c5f2d;
+  text-decoration: none;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-top: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.register-container a:hover {
+  color: #1d441e;
+}
