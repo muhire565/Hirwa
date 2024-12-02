@@ -6,7 +6,7 @@ import background2 from './images/background2.jpg';
 import background3 from './images/background3.jpg';
 import logo from './images/logo3.png';
 import crop from './images/cropicon2.png';
-import analy from './images/Analysisicon.png';
+import analy from './images/analysisicon.png';
 import water from './images/water.png';
 
 /*************  ✨ Codeium Command ⭐  *************/
