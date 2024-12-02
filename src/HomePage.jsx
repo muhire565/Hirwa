@@ -5,7 +5,19 @@ import background1 from './images/background1.jpg';
 import background2 from './images/background2.jpg';
 import background3 from './images/background3.jpg';
 import logo from './images/logo3.png';
+import crop from './images/cropicon2.png';
+import analy from './images/Analysisicon.png';
+import water from './images/water.png';
 
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * HomePage component serves as the main landing page for the application.
+ * It includes a header with navigation links, a slideshow with auto-rotation
+ * functionality, features and about sections, and a footer. The slideshow
+ * automatically rotates every 5 seconds and supports manual navigation.
+ * Additionally, the header changes appearance on scroll.
+ */
+/******  f520653b-98d3-42b4-b658-07ec640c53e5  *******/
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [background1, background2, background3];
@@ -95,10 +107,15 @@ const HomePage = () => {
       {/* Features Section */}
       <section id='features' className='features-section'>
         <h2>Features</h2>
+
         <div className='features-list'>
           <div className='feature-item'>
             <i className='fas fa-seedling'></i>
+            <div className='crop'>
+              <img className='crops' src={crop} alt='' />
+            </div>
             <h3>Efficient Crop Management</h3>
+
             <p>
               Track crop growth stages, monitor soil health, and optimize yield
               with our advanced tools.
@@ -106,6 +123,9 @@ const HomePage = () => {
           </div>
           <div className='feature-item'>
             <i className='fas fa-chart-line'></i>
+            <div className='analy'>
+              <img className='analysis' src={analy} alt='' />
+            </div>
             <h3>Real-Time Data Analysis</h3>
             <p>
               Get insights on production data and weather forecasts to make
@@ -114,6 +134,9 @@ const HomePage = () => {
           </div>
           <div className='feature-item'>
             <i className='fas fa-water'></i>
+            <div className='analy'>
+              <img className='analysis' src={water} alt='' />
+            </div>
             <h3>Water Management</h3>
             <p>
               Manage irrigation schedules effectively to save water and reduce

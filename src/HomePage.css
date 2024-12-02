@@ -10,6 +10,10 @@ body {
   overflow-x: hidden;
 }
 
+.crops {
+  object-fit: contain;
+  height: 150px;
+}
 /* Header Styles */
 header {
   background-color: rgba(44, 95, 45, 0.95);
@@ -188,6 +192,10 @@ nav {
 .feature-item p {
   margin-top: 0.5rem;
   color: #555;
+}
+.analysis {
+  object-fit: contain;
+  height: 150px;
 }
 
 /* About Section */
